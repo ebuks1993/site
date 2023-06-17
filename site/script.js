@@ -26,11 +26,11 @@ function SquadPay() {
     onSuccess: () => console.log(`Linked successfully`),
     key: "sandbox_pk_8f6b99e03d5e36e735d05fc9c2cf483ad134b0c1cc71",
     //Change key (test_pk_sample-public-key-1) to the key on your Squad Dashboard
-    email: param1,
-    amount: param2*100,
+    email:param1,
+    amount:param2*100,
     //Enter amount in Naira or Dollar (Base value Kobo/cent already multiplied by 100)
     currency_code: "NGN",
-    metadata: dab
+    metadata:dab
   });
   squadInstance.setup();
   squadInstance.open();
